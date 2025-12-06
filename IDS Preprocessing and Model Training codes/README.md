@@ -25,7 +25,7 @@ README.md
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 Install required Python dependencies:
 
@@ -56,12 +56,12 @@ python model.py
 ```
 
 This will:
-✔️ Do data analysis 
-✔️ train 4 ML models
-✔️ perform GridSearchCV hyperparameter tuning
-✔️ evaluate accuracy, F1, ROC-AUC
-✔️ report memory/time usage
-✔️ plot ROC curves for all models
+ Do data analysis 
+ train 4 ML models
+ perform GridSearchCV hyperparameter tuning
+ evaluate accuracy, F1, ROC-AUC
+ report memory/time usage
+ plot ROC curves for all models
 
 ---
 
@@ -73,7 +73,7 @@ This will:
 
 This script performs the initial dataset investigation.
 
-### ✔️ Operations Performed
+###  Operations Performed
 
 * Prints **data types** for all features
 * Shows **unique values** for categorical columns:
@@ -91,7 +91,7 @@ This script performs the initial dataset investigation.
 * Checks **duplicate session IDs**
 * Demonstrates **example one-hot encoding** for `protocol_type`
 
-### ✔️ Command
+###  Command
 
 ```bash
 python dataAnalysis.py
@@ -103,7 +103,7 @@ python dataAnalysis.py
 
 This script computes statistical relationships between features and the target.
 
-### ✔️ Operations Performed
+###  Operations Performed
 
 * Computes **correlation of every numeric feature** with the target (`attack_detected`)
 * Computes **attack probability per protocol type**
@@ -114,7 +114,7 @@ This script computes statistical relationships between features and the target.
   * understanding high-risk groups
   * building interpretable ML models
 
-### ✔️ Command
+###  Command
 
 ```bash
 python numFeature.py
@@ -126,7 +126,7 @@ python numFeature.py
 
 This is the full modeling engine of the project.
 
-### ✔️ Steps Performed
+###  Steps Performed
 
 ### **1. Load dataset**
 
